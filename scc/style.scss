@@ -1,0 +1,548 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+
+// home page
+
+.home{
+    max-width: 1600px;
+    background-color: #F4F6FC;
+}
+// navbar
+
+.navbar{
+    background: #1C1E53;
+    padding: 33px 160px;
+    ul{
+        margin-left: 400px;
+    }
+    a{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #BBBBCB;
+        transition: .7s;
+        &:hover{
+            color: #fff;
+        }
+    }
+    .a6{
+        background: #1C1E53;
+        padding: 16px 46px;
+        height: 60px;
+        width: 185px;
+        border-radius: 41px; 
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #BBBBCB;   
+    }
+    
+}
+// navbar end
+
+// col25
+
+.col25{
+    background-color: #1C1E53;
+    padding: 126px 160px;
+    h1{
+        margin-bottom: 25px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 74px;
+        color: #fff;
+    }
+    p{
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        color: #fff;
+        opacity: 0.7;
+    }
+    .buttoncol25{
+        margin-top: 48px;
+        button{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-size: 18px;
+            line-height: 32px;
+            color: #1B1C2B;
+            width: 230px;
+            height: 64px;
+            background: #FCD980;
+            border-radius: 41px;
+            padding: 16px 26px;
+            border: none;
+        }  
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+    .rightcol25{
+        margin-left: 10px;
+    }
+}
+
+// col25 end
+
+// view start--------------
+
+.view{
+    max-width: 1600px;
+    padding: 33px 160px;
+    .topview{
+        gap: 600px;
+        margin-bottom: 64px;
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            color: #282938;
+        }
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            color: #282938;
+        }
+    }
+    .gridsec{
+        gap: 32px;
+    }
+        .bag{
+            background-image: url(../images/Card1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0;
+            height: 600px;
+            width: 843px;
+            .bag-left{
+                max-width: 396px;
+                margin-left: 0;
+                height: 600px;
+                padding: 312px 45px 76px 35px;
+                background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                h3{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #FFFFFF;    
+                }
+                p{
+                    margin-top: 16px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                    opacity: 0.8;
+                }
+                a{font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #FCD980;
+                }
+            } 
+        }
+        .rol{
+            gap: 32px;
+            .carm{
+                height: 284px;
+                width: 414px;
+                background: url(../images/card2.png);
+                .carn{
+                    height: 284px;
+                    width: 414px;
+                    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                }                  
+            }
+            .carm1{
+                height: 284px;
+                width: 414px;
+                background: url(../images/./Card.png);
+            }
+        }
+}
+
+// view end   
+
+// features start--------------
+
+.features{
+    max-width: 1600px;
+    padding: 33px 160px;
+    .topfea{
+        h5{
+            /* Label 2 */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            
+            /* identical to box height, or 175% */
+            text-align: center;
+            
+            /* Dark blue */
+            color: #282938;    
+        }
+        h2{
+            /* Heading 2 */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            max-width: 630px;
+            margin-top: 12px;
+            margin-bottom: 47px;
+            /* or 133% */
+            text-align: center;
+            
+            /* Dark blue */
+            color: #282938;
+        }
+    }
+    .feacards{
+        row-gap: 24px;
+        column-gap: 24px;
+        .feacard{
+            background-color: #FFFFFF;width: 385px;
+            height: 316px;
+            padding: 47px 32px 48px 48px;
+            img{
+                margin-bottom: 25px;
+            }
+            h3{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+                color: #282938;
+            }
+            p{font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                opacity: 0.7;
+                margin-top: 12px;
+                color: #282938;
+            }
+        }
+    }
+}
+
+// features end
+
+// say start--------------------
+
+.say{
+    padding: 126px 160px;
+    .leftsay{
+        h3{
+            /* Heading 3 */
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 56px;
+            color: #282938;width: 327px;
+            height: 112px;
+        }
+        p{font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #282938;
+            opacity: 0.7;
+            margin-top: 16px;
+        }
+    }
+    .rightsay{
+        margin-left: 100px;
+        h2{ 
+            width: 843px;
+            height: 144px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 48px;
+            color: #282938;
+        }
+        .leftrs{
+            gap: 550px;
+        }
+        .port{
+            margin-top: 48px;
+            gap: 20px;
+            img{
+                border-radius: 50%;
+            }
+            h5{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                color: #282938;
+            }
+            h6{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 28px;
+                color: #282938;
+            }
+        }
+    }
+}
+
+
+// Media
+
+
+@media only screen and (max-width: 1200px) {
+    .col25{
+        .leftcol25{
+            h1{
+                font-size: 30px;
+            }
+        }
+        .rightcol25{
+            img{
+                width: 550px;
+            }
+        }
+    }
+    .view{
+        .topview{
+            gap: 300px;
+        }
+        // .bag{
+        // }
+        // .rol{
+            
+        // }
+    }
+} 
+
+
+@media only screen and (max-width: 1100px) {
+    .col25{
+        .leftcol25{
+            h1{
+                font-size: 35px;
+            }
+        }
+        .rightcol25{
+            img{
+                width: 550px;
+            }
+        }
+    }
+    .view{
+        .topview{
+            gap: 200px;
+        }
+        // .bag{
+        // }
+        // .rol{
+                      
+        // }
+    }
+    .say{
+        padding-left: 40px;
+        .rightsay{
+            margin-left: 0px;
+            h2{
+                width: 500px;
+                margin-left: 0px;
+                margin-bottom: 50px;
+            }
+            .leftrs{
+                gap: 450px;
+                
+            }
+        }
+    }
+} 
+
+@media only screen and (max-width: 992px)  {
+    .navbar{
+        ul{
+            margin-left: 0px;
+            h1{
+                font-size: 20px;
+            }
+        }
+    }
+    .view{
+        padding: 0px;
+        .topview{
+            gap: 0px;
+        }
+        .bag{
+            width: 700px;
+            // .rol{
+            //     flex-direction: ;
+            // }
+        }
+    }
+    .features{
+        .topfea{
+            h2{
+                font-size: 24px;
+            }
+        }
+    }
+    .say{
+        .rightsay{
+            margin-left: 50px;
+            h2{
+                width: 500px;
+                margin-left: 0px;
+                margin-bottom: 50px;
+            }
+            .leftrs{
+                gap: 350px;
+                margin-top: 20px;
+                
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 720px) {
+    .col25{
+        flex-direction: column;
+        .leftcol25{
+            h1{
+                font-size: 35px;
+            }
+        }
+        .rightcol25{
+            img{
+                width: 350px;
+            }    
+        }
+        .say{
+            .rightsay{
+                margin-left: 50px;
+                h2{
+                    width: 500px;
+                    margin-left: 0px;
+                    margin-bottom: 50px;
+                }
+                .leftrs{
+                    gap: 200px;
+                    margin-top: 20px;
+                    
+                }
+            }
+    }
+    .view{
+        .bag{
+            max-width: 550px;
+            margin: auto;
+        }
+    }
+    .features{
+        .feacards{
+            .feacard{
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+} 
+@media only screen and (max-width: 500px){
+    .navbar{
+        padding-left: 30px;
+    }
+    .col25{
+        padding: 30px;
+        flex-direction: column;
+        gap: 20px;
+        .leftcol25{
+            h1{
+                font-size: 35px;
+            }
+        }
+        .rightcol25{
+            img{
+                width: 350px;
+            }    
+        }
+        
+    }
+    .view{
+        .bag{
+            max-width: 400px;
+            margin: auto;
+        }
+        .bag-left{
+            max-width: 400px;
+        }
+        .gridsec{
+            .rol{
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    .features{
+        .feacards{
+            .feacard{
+                width: 400px !important;
+                padding: 10px;
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
